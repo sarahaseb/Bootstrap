@@ -130,4 +130,88 @@ height:90vh;
     font-size: 1.5rem;
     color: white;
 }
+/* Start portfolio */
+body{
+  background-color:#161616;
+}
+.hero{
+    text-align: center;
+    color:white;
+    font-family: Arial, sans-serif;
+}
 
+.hero h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider span {
+    width: 50px;
+    height: 4px;
+    background-color:#021024;
+    display: block;
+    margin: 0 10px;
+}
+
+.divider i {
+    font-size: 1.5rem;
+    color:#C8D9EB;
+}
+b {
+  text-align: center;
+color: #C8D9EB;
+}
+ 
+.image {
+  margin-top:10px;
+}
+.grid{
+  display:flex;
+  flex-direction:column;
+  width: 200px;
+  margin-left:380px;
+  margin-top:25px;
+}
+
+.image-box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.image-box img {
+    width: 100%;
+    display: block;
+        padding: 10px;
+
+}
+
+.image-box::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    background: rgba(55, 195, 96, 1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-box:active::after {
+    opacity: 1;
+}
+/* End portfolio */
