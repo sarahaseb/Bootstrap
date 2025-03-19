@@ -215,3 +215,62 @@ color: #C8D9EB;
     opacity: 1;
 }
 /* End portfolio */
+/* Start About   */
+html {
+  height: 100%;
+  width: 100%;
+}
+/* تنسيق القسم بالكامل */
+#about {
+    background-color: #0b582d; /* لون الخلفية */
+    color: white; /* لون النص */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* تنسيق العنوان */
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* فاصل يحتوي على النجمة */
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.star {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+
+}
+.about-text {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+/* زر التحميل */
+.download-btn {
+    display: inline-block;
+    background-color: white;
+    color: #116134;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #1A4206;
+}
+/* End Ahout */
